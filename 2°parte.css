@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700&display=swap');
+
+:root {
+  font-size: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  background-color: #fffaf3;
+  color: #2c2c2c;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  margin-top: 4vh;
+}
+
+
+
+
+.header img {
+  max-width: 3=180px;
+}
+
+.menu-links {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-links a {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #1e8449;
+}
+
+/* BANNER */
+.banner {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #1e8449, #27ae60);
+  color: #fff;
+}
+
+.banner p {
+  font-size: 2.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.botao {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  font-size: 1.3rem;
+  border-radius: 2rem;
+  background-color: #f1c40f;
+  color: #2c2c2c;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+
+/* IMAGEM */
+.banner img {
+  width: 90vw;
+  max-width: 250px;
+  border-radius: 90px;
+}
+
+
+/* CARDÁPIO */
+.cardapio {
+  max-width: 915rem;
+  margin: 4rem auto;
+  padding: 5rem 4rem;
+}
+
+.cardapio h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  color: #c0392b;
+}
+
+.cardapio-categoria {
+  margin-top: 2rem;
+  font-size: 2.0rem;
+  color: #1e8449;
+}
+
+.cardapio-item {
+  margin-top: 3.0rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed #ddd;
+}
+
+.cardapio-nome {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.cardapio-preco {
+  font-size: 1.3rem;
+  color: #c0392b;
+  font-weight: 900;
+}
+
+.cardapio-descricao {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* WHATSAPP */
+.link-whatsApp img {
+  height: 3.9rem;
+  position: fixed;
+  right: 1.0rem;
+  bottom: 1.0rem;
+}
+
+/* FOOTER */
+footer {
+  background: #1e8449;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 2rem;
+  font-size: 1.1rem;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coluna {
+    width: 50%;
+  }
+
+  .banner p {
+    font-size: 2.8rem;
+    text-align: left;
+  }
+}
